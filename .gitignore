@@ -172,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/btcusd_1-min_data_fixed.csv
+data/btcusd_1-min_data.csv
