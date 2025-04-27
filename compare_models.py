@@ -188,7 +188,7 @@ if __name__ == "__main__":
     
     # Load or fetch data
     try:
-        data = pd.read_csv('data/bitcoin_historical.csv', index_col=0, parse_dates=True)
+        data = pd.read_csv('data/btcusd_1-min_data_fixed.csv', index_col=6, parse_dates=True)
         print(f"Loaded data from CSV. Shape: {data.shape}")
     except FileNotFoundError:
         print("Fetching Bitcoin historical data...")
